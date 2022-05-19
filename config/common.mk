@@ -248,6 +248,10 @@ PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/etc/sysconfig/adaptivecharging.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/adaptivecharging.xml
 endif
 
+# Game Space
+PRODUCT_PACKAGES += \
+    GameSpace
+
 # Audio
 $(call inherit-product, vendor/aosp/config/audio.mk)
 
